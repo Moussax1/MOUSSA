@@ -1,11 +1,14 @@
 <h1 align="left">Hi there 👋, I'm Yassine Ben Moussa</h1>
 <h3 align="left">Computer Science & Multimedia Student | Developer | Tech Enthusiast</h3>
 
-### Canva Design
 
-[Click here to view the Canva design](https://www.canva.com/design/DAG8GtkE6fo/HwWlcrpXj4EjpPLZo9pVSQ/view?utm_content=DAG8GtkE6fo&utm_campaign=designshare&utm_medium=embeds&utm_source=link)
+<p align="center">
+  <img src="assets/IT-Student.png"
+       alt="Yassine Ben Moussa – Cover"
+       width="100%" />
+</p>
 
----
+
 
 ### 👨‍💻 About Me
 
