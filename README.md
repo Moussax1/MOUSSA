@@ -60,7 +60,3 @@ Hello! I'm **Yassine Ben Moussa**, Computer Science and Multimedia Bachelor’s 
 
 ![3D Contribution Graph](./profile-3d-contrib/profile-green-animate.svg)
 
-
-> 💡 _“Code hard. Stay curious. Build smart.”_ 🚀
-
-> 💡 _“Always learning. Always building.”_ 🚀
