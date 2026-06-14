@@ -58,7 +58,7 @@ Hello! I'm **Yassine Ben Moussa**, Computer Science and Multimedia Bachelor’s 
 
 ### 📊 GitHub Stats
 
-![Yassine's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Moussax1&show_icons=true&theme=tokyonight)
+![3D Contribution Graph](./profile-3d-contrib/profile-green-animate.svg)
 
 
 > 💡 _“Code hard. Stay curious. Build smart.”_ 🚀
