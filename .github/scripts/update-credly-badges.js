@@ -23,19 +23,49 @@ function fetchJSON(url) {
   });
 }
 
+function formatDate(dateStr) {
+  const d = new Date(dateStr);
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  return `${months[d.getMonth()]} ${d.getFullYear()}`;
+}
+
 function generateBadgeHTML(badges) {
   const sorted = badges.sort((a, b) =>
     new Date(b.issued_at_date) - new Date(a.issued_at_date)
   );
 
-  const images = sorted.map(badge => {
+  const [featured, ...rest] = sorted;
+
+  const featuredHTML = `<p align="center">
+  <a href="https://www.credly.com/badges/${featured.id}" target="_blank">
+    <img src="${featured.badge_template.image_url}" width="130" height="130" alt="${featured.badge_template.name}"/>
+  </a>
+  <br/><b>${featured.badge_template.name}</b> · <sub>${formatDate(featured.issued_at_date)}</sub>
+</p>`;
+
+  const COLUMNS = 4;
+  const cells = rest.map((badge) => {
     const name = badge.badge_template.name;
     const image = badge.badge_template.image_url;
     const url = `https://www.credly.com/badges/${badge.id}`;
-    return `<a href="${url}" target="_blank"><img src="${image}" alt="${name}" width="110" height="110"/></a>`;
+    return `    <td align="center" width="120">
+      <a href="${url}" target="_blank">
+        <img src="${image}" width="90" height="90" alt="${name}"/>
+      </a>
+      <br/><sub>${name}</sub>
+    </td>`;
   });
 
-  return images.join('\n');
+  const rows = [];
+  for (let i = 0; i < cells.length; i += COLUMNS) {
+    rows.push(`  <tr>\n${cells.slice(i, i + COLUMNS).join('\n')}\n  </tr>`);
+  }
+
+  const tableHTML = rest.length
+    ? `\n\n<table align="center">\n${rows.join('\n')}\n</table>`
+    : '';
+
+  return featuredHTML + tableHTML;
 }
 
 async function main() {
