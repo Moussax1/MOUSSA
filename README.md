@@ -19,6 +19,11 @@ Hello! I'm **Yassine Ben Moussa**, Computer Science and Multimedia Bachelor’s 
 ### 📜 Certifications
 
 <!-- CREDLY_BADGES_START -->
+<a href="https://www.credly.com/badges/37f23a4c-f91d-4c7c-8b09-288e0ffbfa44" target="_blank"><img src="https://images.credly.com/images/082c8d0c-5232-4597-b6c4-6bebcc4f3046/blob" alt="AI Skills Fest 2026" width="110" height="110"/></a>
+<a href="https://www.credly.com/badges/969a6298-f8d2-4100-a12c-14e9d00dbcb2" target="_blank"><img src="https://images.credly.com/images/e63cb7ac-9d3e-4da1-9bcb-23de37a0c6a3/ITS-Badges_Art-Intel.png" alt="IT Specialist - Artificial Intelligence" width="110" height="110"/></a>
+<a href="https://www.credly.com/badges/cbfd5095-9ab5-422c-9cde-e0ee5d13a388" target="_blank"><img src="https://images.credly.com/images/70d71df5-f3dc-4380-9b9d-f22513a70417/CCNAITN__1_.png" alt="CCNA: Introduction to Networks" width="110" height="110"/></a>
+<a href="https://www.credly.com/badges/b00d29da-dc37-4d7a-80ca-1301ecfbe1d0" target="_blank"><img src="https://images.credly.com/images/440f3466-4d13-490e-9afd-5f2747f47806/image.png" alt="C Essentials 1" width="110" height="110"/></a>
+<a href="https://www.credly.com/badges/4fa6ba8d-4410-4034-be99-0bb5ba1efb0c" target="_blank"><img src="https://images.credly.com/images/68c0b94d-f6ac-40b1-a0e0-921439eb092e/image.png" alt="Python Essentials 1" width="110" height="110"/></a>
 <!-- CREDLY_BADGES_END -->
 
 ---
